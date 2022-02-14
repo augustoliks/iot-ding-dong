@@ -2,7 +2,8 @@
 
 Smart doorbell, ding dong in your Telegram.
 
-> Workflow: _Doorbell Push Button > ESP32 > HTTP Request > Telegram Bot Endpoint > Notify Channel_
+> Workflow:
+> _Doorbell Push Button > ESP32 > HTTP Request > Telegram Bot Endpoint > Notify Channel_
 
 This project consists of an ESP32 module that is connected to a network. This module is formatted with the Micropython Firmware. When Pin 22 is not closed circuit, a message is sent to a telegram channel via bot.
 
