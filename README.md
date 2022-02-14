@@ -22,6 +22,8 @@ System Packages:
 
 ## Configuration
 
+In source code file [src/main.py](src/main.py), it necessary define the follow values:
+
 ```python
 NET_SSID = "<YOUR NET_SSID>"
 NET_PASSWD = "<YOUR NET_PASSWD>"
