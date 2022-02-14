@@ -12,7 +12,7 @@ Hardware Components:
 
 - [ESP32](https://pt.wikipedia.org/wiki/ESP32)
 - [MB102 Breadboard 3.3V/5V Power Supply](https://www.amazon.com/CorpCo-Breadboard-Supply-Arduino-Solderless/dp/B00ZO9YB1G)
-- 7DC 12DC power supply
+- [7DC ~ 12DC power supply](https://joindeh.com/shop/ac-to-dc-12v-3a-wall-adapter-power-supply-for-arduino/)
 
 System Packages:
 
