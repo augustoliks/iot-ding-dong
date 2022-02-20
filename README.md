@@ -45,10 +45,10 @@ To discovery `TELEGRAM_CHAT_ID`, in order to get the group chat id, do as follow
 First step, it's install micropython firmware in ESP32. Check latest firwmare version on https://micropython.org/download/esp32/. At the time of release of this project, the latest firmware is `esp32-20220117-v1.18.bin`
 
 ```bash
-wget https://micropython.org/resources/firmware/esp32-20220117-v1.18.bin
-sudo chmod 777 /dev/ttyUSB0
-esptool.py --port /dev/ttyUSB0 erase_flash
-esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash -z 0x1000 esp32-20220117-v1.18.bin
+$ wget https://micropython.org/resources/firmware/esp32-20220117-v1.18.bin
+$ sudo chmod 777 /dev/ttyUSB0
+$ esptool.py --port /dev/ttyUSB0 erase_flash
+$ esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash -z 0x1000 esp32-20220117-v1.18.bin
 ```
 
 > `/dev/ttyUSB0` value may change depending on other USB peripherals connected on the machine.
@@ -56,7 +56,7 @@ esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash -z 0x1000 esp32-20220117
 Next, upload source code to 
 
 ```bash
-git clone https://github.com/augustoliks/iot-ding-dong
-cd ./iot-ding-dong
-ampy --port /dev/ttyUSB0 put src/main.py /main.py
+$ git clone https://github.com/augustoliks/iot-ding-dong
+$ cd ./iot-ding-dong
+$ ampy --port /dev/ttyUSB0 put src/main.py /main.py
 ```
